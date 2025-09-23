@@ -1,0 +1,9 @@
+- Value of phase shift at k=0 mod Pi (minus the value at infinity) tells you how many bound states there are, should equal number of poles of A=-iT on the complex axis when plotting in complex plane. Note if plotting T, it would be on the real axis. 
+- Resonances in the complex plane correspond to the oscillations in the delta(k) graph. The point between a peak/trough seem to line up with the real value of the momenta corresponding to the resonance in the complex plane
+- For delta shell, the bound state gets closer to the origin as g->1
+- Have to manually stich together phase shifts cause of mathematica modding them by pi. Some of this stitching is needed due to roots in cot(delta), some is due to how it maps the solution to a sin wave.
+- Calculating the scattering length by doing a numerical derivative of the phase shift has poles at the values of the coupling whing create a new bound state
+-kcot(delta) should have n-1 divergences, where n is the number of bound states. The missing one is the one at k=0 -> delta=npi since k=0 kills the divergence
+-Scattering length diverges to -inf, then new bound state at threshold, then reappears at +inf
+-When new bound states appear, does the new divergence in Veff appear at 0 or at infinity?
+-I notice C0 is really small when I subtract out one bound state when there are 2... i.e. C(k) starts really close to the origin
